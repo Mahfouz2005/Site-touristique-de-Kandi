@@ -2,7 +2,7 @@
   window.addEventListener('load', () => {
     setTimeout(() => {
       document.getElementById('loader').classList.add('fade-out');
-    }, 1000);
+    }, 800);
   });
 
   // Navbar scroll effect
@@ -59,5 +59,5 @@
     contactForm.reset();
     setTimeout(() => {
       formSuccess.style.display = 'none';
-    }, 3000);
+    }, 4000);
   });
